@@ -1,3 +1,5 @@
+"use client";
+
 type PlanPayload = {
   summary: string;
   score: number;

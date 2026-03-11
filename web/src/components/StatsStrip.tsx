@@ -1,3 +1,5 @@
+"use client";
+
 type StatsStripProps = {
   stats: Array<{ label: string; value: string }>;
 };

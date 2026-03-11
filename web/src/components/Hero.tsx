@@ -1,3 +1,5 @@
+"use client";
+
 type HeroProps = {
   appName: string;
   tagline: string;

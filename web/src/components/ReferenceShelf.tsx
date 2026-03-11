@@ -1,3 +1,5 @@
+"use client";
+
 type ReferenceShelfProps = {
   eyebrow: string;
   title: string;

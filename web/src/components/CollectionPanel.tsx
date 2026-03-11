@@ -1,3 +1,5 @@
+"use client";
+
 type SavedPlan = {
   summary: string;
   score: number;
@@ -33,10 +35,10 @@ export default function CollectionPanel({
             </article>
           ))
         ) : (
-            <article className="saved-card">
-              <span className="saved-score">Empty state</span>
-              <h3>Generate the first output</h3>
-              <p>The saved library and recent activity surface will fill after the first successful run.</p>
+          <article className="saved-card">
+            <span className="saved-score">Empty state</span>
+            <h3>Generate the first output</h3>
+            <p>The saved library and recent activity surface will fill after the first successful run.</p>
           </article>
         )}
       </div>

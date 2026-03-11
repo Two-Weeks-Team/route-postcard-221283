@@ -1,3 +1,5 @@
+"use client";
+
 type FeaturePanelProps = {
   eyebrow: string;
   title: string;
